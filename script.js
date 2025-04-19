@@ -8,6 +8,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+document.getElementById('date').innerHTML = new Date().getFullYear();
+
 // Add scroll-based header transparency
 const header = document.querySelector('header');
 window.addEventListener('scroll', () => {

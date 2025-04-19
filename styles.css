@@ -199,7 +199,6 @@ footer {
 
 .stone-card {
     background: var(--white);
-    border-radius: 15px;
     padding: 1.5rem;
     text-align: center;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
@@ -214,7 +213,6 @@ footer {
 .stone-card img {
     width: 100%;
     height: auto;
-    border-radius: 10px;
     margin-bottom: 1rem;
 }
 
